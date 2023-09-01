@@ -29,6 +29,7 @@ const HomeHero = () => {
           </Link>
         </div>
       </header>
+
       // main selection
       <main className="flex flex-1 flex-col justify-center items-center text-center text-white gap-2 space-y-3">
         <h1 className="text-3xl lg:text-5xl font-bold">
@@ -48,7 +49,7 @@ const HomeHero = () => {
             type="text"
             placeholder="Email address"
           />
-          <button className="text-center px-5 py-4 shadow-md   bg-red-500 text-white md:space-y-3 ">
+          <button className="text-center px-5 py-4 shadow-md   bg-red-500 text-white md:space-y-3  ">
             Get Started
             {/* <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -67,6 +68,14 @@ const HomeHero = () => {
           </button>
         </div>
       </main>
+
+
+
+
+
+
+
+
     </div>
   );
 };
