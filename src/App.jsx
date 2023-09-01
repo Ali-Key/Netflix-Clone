@@ -2,6 +2,8 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import List from "./pages/List";
+import Login from "./pages/Login";
+import Singup from "./pages/Singup";
 const App = () => {
   return (
     <Routes>
